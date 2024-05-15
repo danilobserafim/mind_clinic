@@ -1,0 +1,25 @@
+.social {
+    position: absolute;
+    bottom: 8px;
+
+}
+.social .links {
+    display: flex;
+    justify-content: center;
+
+    gap: 8px;
+}
+
+.social .links a {
+    text-decoration: none;
+}
+
+.social .links a img {
+    height: 16px;
+    width: 16px;
+}
+social p{
+    font-size: 8px;
+    font-family: "Aleo";
+    font-weight: 700;
+}

@@ -1,0 +1,65 @@
+.title-blue {
+    font-family: Aleo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #0094FF;
+
+
+}
+
+.title-black {
+    font-family: Aleo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+}
+
+.text-10px-black {
+    font-size: 10px;
+    font-family: "Aleo";
+    font-weight: 400;
+}
+
+.text-8px-black {
+    font-family: Aleo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+}
+
+.text-9px-blue {
+    font-size: 9px;
+    font-family: "Aleo";
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.text-12px-blue {
+    text-align: center;
+    font-family: "Aleo";
+    font-size: 13px;
+    color: var(--primary-color);
+    line-height: 20px;
+}
+
+.text-10px-red {
+    font-family: Aleo;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+    color: red;
+
+}
+
+.center {
+    text-align: center;
+}

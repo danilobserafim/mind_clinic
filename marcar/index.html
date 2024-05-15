@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/logo.css">
+    <link rel="stylesheet" href="../styles/footer-social.css">
+    <link rel="stylesheet" href="../styles/text.css">
+    <link rel="stylesheet" href="../styles/button.css">
+    <link rel="stylesheet" href="../styles/tag.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Marcar consulta</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../assets/images/title.svg" alt="Mind Clinic" id="logo">
+        
+            <form action="#">
+                <div id="date-container">
+                    <p class="text-8px-black">Escolha uma data da sua consulta:</p>
+                    <input type="date" name="date" id="date" >
+                </div>
+                <p class="text-8px-black center">Escolha um horário da sua consulta:</p>
+                <div class="tag-container">
+                    <input type="radio" name="horario" id="10:00" value="10">
+                    <label for="10:00" class="tag-horario">10:00</label>
+
+                    <input type="radio" name="horario" id="11:00" value="11">
+                    <label for="11:00" class="tag-horario">11:00</label>
+
+                    <input type="radio" name="horario" id="12:00" value="12">
+                    <label for="12:00" class="tag-horario">12:00</label>
+                </div>
+                
+                <input type="submit" class="primary" id="button" value="Agendar"></input>
+            </form>
+        
+            <footer class="social">
+                <a href="../login/" class="text-9px-blue">Entre como Administrador</a>
+            </footer>
+    </div>
+</body>
+</html>
